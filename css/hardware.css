@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
 /* CSS Menu responsivo*/
 body, ul {
     margin: 0px;
     padding: 0px;
 }
+
 a {
     color: black;
     text-decoration: none;
@@ -17,9 +19,6 @@ a:hover {
 }
 #header {
     width: 100%;
-    position: initial;
-    z-index: 90;
-    box-sizing: border-box;
     height: 90px;
     padding: 0px;
     display: flex;
@@ -131,6 +130,7 @@ a:hover {
     padding: 50px;
     margin: 30px auto;
     background-color: #005caa;
+    margin-top: 0px;
 }
 
 .section-banner-home img {
@@ -159,7 +159,8 @@ a:hover {
     text-decoration: none;
     background-color: #fff;
     padding: 4px 14px;
-    font-size: 15px;
+    font-size: 18px;
+    border-radius: 10px;
 }
 .section-banner-home img.img-fluid {
     justify-content: left;
@@ -168,7 +169,7 @@ a:hover {
 
 /*CSS Destaque*/
 .destaque {
-    margin-top: 150px;
+    margin-top: 130px;
 }
 
 .destaque h2 {
@@ -183,7 +184,7 @@ a:hover {
     margin: 30px auto;
 }
 .destaque figcaption {
-    font-size: 13px;
+    font-size: 18px;
 }
 .destaque a {
     justify-content: center;
@@ -238,8 +239,8 @@ a:hover {
 }
 .galeria .gallery img.img-fluid {
     background-image: none;
-    width: 300px;
-    height: 330px;   
+    width: 10px;
+    height: 30px;   
 }
 /* CSS Footer*/
 .rodape {

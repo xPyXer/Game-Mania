@@ -2,10 +2,19 @@
 .menu_top {
     width: 100%;
     height: 80px;
+    background: #D9E0EE;
 }
-nav.menu_top {
-    left: 50px;
+
+nav.menu_top ul.menu {
+    margin-left: -600px;
 }
+
+.menu_top img.img-logo {
+    height: auto;
+    width: 120px;
+    margin-top: -30px;
+}
+
 /* Seletores destacados em vermelho*/
 .menu_top img{
     float: left;
@@ -14,6 +23,7 @@ nav.menu_top {
     top: 20px;
     left: 20px;
 }
+
 .menu_top .menu .linkMenu{
     text-decoration: none;
     margin: 30px 8px 0px;
@@ -25,11 +35,14 @@ nav.menu_top {
     left: 50%;
     top: 30px;
 }
+
 .menu_top .menu .login{
-    background-color: aqua;
+    background-color: #030ff0;
     color: #fff;
     padding: 10px 12px;
+    border-radius: 18px;
 }
+
 /* CSS */
 .section-banner-home{
     width: 100%;
@@ -61,146 +74,104 @@ nav.menu_top {
 }
 
 .section-banner-home .texto-banner a{
-    color: #000;
+    color: #fff;
     text-decoration: none;
     background-color: #fff;
     padding: 4px 14px;
     font-size: 15px;
 }
-/*CSS Destaque*/
-.destaque {
-    margin-top: 150px;
-}
 
-.destaque h2{
-    text-align: center;
-    font-size: 24px;
-    font-weight: bold;
-}
-.destaque p{
-    width: 77%;
-    text-align: center;
-    font-size: 14px;
-    margin: 30px auto;
-}
-.destaque figcaption{
-    font-size: 13px;
-}
-.destaque a{
-    justify-content: center;
-    display: flex;
-    text-decoration: none;
-    color: #30dcf4;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 30px 0;
-}
-/* CSS Novidades */
-.novidades{
-    background-color: #082373;
-    padding: 50px;
-}
-.novidades .text-body{
-    width: 80%;
-    margin: 70px auto;
-}
-.novidades h2{
-    color: #fff;
-    font-size: 26px;
-    width: 70%;
-}
-.novidades p{
-    color: #fff;
-}
-.novidades a{
-    color: #000;
-    text-decoration: none;
-    padding: 6px 12px;
-    background-color: #fff;
-    font-weight: 400;
-}
-/* CSS Galeria Full*/
-.galeria {
-    margin: 60px auto 20px;
-}
-.galeria h2 {
-    text-align: center;
-    font-size: 24px;
-}
-.galeria p {
-    text-align: center;
-    width: 50%;
-    margin: 14px auto 50px;
-}
-.galeria .gallery {
-    margin: 10px auto 10px;
-}
-.galeria .gallery img.img-fluid {
-    background-image: none;
-    width: 300px;
-    height: 330px;   
-}
 /* CSS Footer*/
 .rodape {
     padding: 50px 50px 0;
+    margin-top: 150px;
+    background-color: #082373;
 }
+
 .rodape .info-contato p {
     margin: 0px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
 }
+
 .rodape a {
     text-decoration: none;
-    color: #000;
-    font-size: 13px;
+    color: #fff;
+    font-size: 18px;
 }
+
 .rodape a:hover {
     font-weight: bold;
 }
+
 .rodape .redes-sociais {
     display: inline-block;
 }
+
 .rodape .redes-sociais img {
     width: 45px;
     height: 40px;
 }
+
 .rodape p.direitos {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
+    color:#fff;
+    font-weight: bold;
+    font-size: 18px;
 }
+
+figcaption {
+    color: #fff;
+    font-weight: 600;
+    margin-left: 30px;
+    font-size: 1.5em;
+}
+
 /* CSS formulário de contato */
 .contact{
     padding: 4%;
     height: 400px;
 }
+
 .col-md-3{
     background: #ff9b00;
     padding: 4%;
     border-top-left-radius: 0.5rem;
     border-bottom-left-radius: 0.5rem;
 }
+
 .contact-info{
     margin-top:10%;
 }
+
 .contact-info img{
     margin-bottom: 15%;
 }
+
 .contact-info h2{
     margin-bottom: 10%;
 }
+
 .col-md-9{
     background: #fff;
     padding: 3%;
     border-top-right-radius: 0.5rem;
     border-bottom-right-radius: 0.5rem;
 }
+
 .contact-form label{
     font-weight:600;
 }
+
 .contact-form button{
     background: #25274d;
     color: #fff;
     font-weight: 600;
     width: 25%;
 }
+
 .contact-form button:focus{
     box-shadow:none;
 }
